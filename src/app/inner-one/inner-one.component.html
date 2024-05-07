@@ -1,0 +1,6 @@
+<form>
+  <label for="nameField">Insert your name: </label>
+  <input type="text" [(ngModel)] = "something" name="nameField"/><br><br>
+</form>
+<h3>You typed : {{something}}</h3>
+<button (click)="saySomething()">Click to alert</button><br>
